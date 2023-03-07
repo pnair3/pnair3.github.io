@@ -1,6 +1,266 @@
+
+/*doc styling*/
+
+html,body {
+    background-color: #FFFFFF;
+    padding: 0;
+  }
+
+
 body {
-    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Esteban', serif;
+    position: relative;
+    min-height: 100vh;  
 }
-h1 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+/*body {
+    background-color:  #FFFFFF;
+    background-image: url('images/wavy-lines.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    /*background-position:absolute;*/
+    /*width: 1538px;
+    height: 1719px;
+    left: -206px;
+    top: 550px;		
+    }*/
+
+
+
+/*header styling*/
+
+header {
+    display: flex;
+    flex: none;
+    justify-content: space-between; 
+    /*margin: 10px 80px;*/
+    align-items: center;
+    position: sticky;
+    /*position: absolute;*/
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/*Logo styling*/
+
+#logo {
+    float: left;
+    font-family: 'Esteban', serif;
+    font-size: 28px;
+    margin-left: 80px;
+}
+
+#logo a {
+    color: #605757;
+    font-family: 'Esteban', serif;
+}
+
+/*Nav Bar*/
+
+.navigation {
+    display: flex;
+    font-family:'Montserrat', sans-serif;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 80px;
+}
+ 
+.navigation a {
+    color: #605757;
+    display: block;
+    font-style: normal;
+    padding: 1em;
+    text-decoration: none;
+  }
+  .navigation a:active {
+    color: #D93826;
+    border-bottom: 1px solid;
+  }
+  .navigation a:hover {
+    color: #D93826;
+  }
+
+/*anchor styling*/
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    font-family:'Montserrat', sans-serif;
+    color: #605757;
+  }
+  
+  /*main content*/
+  /*div{
+    display: block;
+  }*/
+
+#first-fold{
+    position: relative; 
+    display: flex;
+    top: 40px;
+    margin-left: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+  .intro{
+    /*position: relative;*/
+    width: 700px;
+    height: auto;
+    float: right;
+        
+  }
+  .small-header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    /* or 90% */
+    /*display: flex;*/
+    align-items: center;
+    letter-spacing: 4px;
+    font-feature-settings: 'kern' off;
+    color: #605757;  
+  }
+/* Help businesses build powerful & elegant products with the help of experience design. */
+  .large-text{
+    width: 650px;
+    height: auto;
+    left: 80px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 146% */
+
+    /*display: flex;*/
+    align-items: center;
+    letter-spacing: 1px;
+    font-feature-settings: 'kern' off;
+
+    color: #040707;
+  }
+ 
+ 
+  /* Hi! My name is Priyanka Nair. I am a UX Designer with over 3 years of experience in the tech industry. Currently a M.S. graduate student at Pratt Institute */
+
+.bio-text {
+width: 650px;
+height: auto;
+left: 80px;
+top: 603px;
+
+font-family: 'Esteban';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* or 158% */
+
+/*display: flex;*/
+align-items: center;
+font-feature-settings: 'kern' off;
+color: #605757;
+}
+
+.self-portrait {
+    width: 100%;
+    height: 100%;
+    max-width: 452px;
+    max-height: 580px;
+    padding: 0px 0px 0px 40px;
+    margin-right: 80px;
+    float: right;
+  }
+
+
+
+
+/*Footer*/
+
+.name {
+    float: left;
+    font-family: 'Esteban', serif;
+    font-size: 22px;
+    margin-left: 80px;
+    align-items: center;
+}
+
+.email {
+    float: right;
+    font-family: 'Esteban', serif;
+    font-size: 16px;
+    margin-right: 80px;
+    text-align: right;
+    align-items: center;
+}
+
+.email a{
+    color: black;
+}
+
+.email a:hover{
+    outline: none;
+    text-decoration: none;
+    font-family:'Montserrat', sans-serif;
+    color: #D93826;
+}
+
+/*footer styling*/
+
+footer {
+    flex: none;
+    background: #EEEFEF;
+    bottom: 0;
+    color: #605757;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    
+}
+.footer box{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+   
+} 
+
+/*Instagram digital illustration styling*/
+
+.drawing-list {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    margin: 10px;
+    padding-bottom: 50px;
+    padding-left: 0;
+    background-color: #F1EDEA;
+}
+.drawing-image {
+    height: 450px;
+    object-fit: cover;
+    width: 450px;
+    padding: 10px;
+}
+.drawing-overlay {
+    bottom: 0;
+    height: 15%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 85%;
+    transition: .5s ease;
+    width: 100%;
 }
