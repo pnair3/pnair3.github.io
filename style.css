@@ -59,7 +59,7 @@ header {
 
 #logo a {
     color: #605757;
-    font-family: 'Esteban', serif;
+    font-family: 'Esteban' serif;
 }
 
 /*Nav Bar*/
@@ -117,7 +117,7 @@ a {
         
   }
   .small-header {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -134,7 +134,7 @@ a {
     width: 650px;
     height: auto;
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -156,7 +156,7 @@ a {
 width: 650px;
 height: auto;
 
-font-family: 'Esteban';
+font-family: 'Esteban', serif;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -181,35 +181,6 @@ color: #605757;
 
 
 
-/*Footer*/
-
-.name {
-    float: left;
-    font-family: 'Esteban', serif;
-    font-size: 22px;
-    margin-left: 80px;
-    align-items: center;
-}
-
-.email {
-    float: right;
-    font-family: 'Esteban', serif;
-    font-size: 16px;
-    margin-right: 80px;
-    text-align: right;
-    align-items: center;
-}
-
-.email a{
-    color: black;
-}
-
-.email a:hover{
-    outline: none;
-    text-decoration: none;
-    font-family:'Montserrat', sans-serif;
-    color: #D93826;
-}
 
 
 /*Second fold- Instagram digital illustration styling*/
@@ -218,6 +189,7 @@ color: #605757;
  /* display: flex;
   justify-content: center;*/
   background-color: #F1EDEA;
+  padding-bottom: 30px;
 }
 
 
@@ -226,8 +198,8 @@ color: #605757;
   display: flex;
   flex-flow: row wrap;
   list-style: none;
-  margin: 10px;
-  padding-bottom: 10px;
+  /*margin: 10px;*/
+  /*padding-bottom: 10px;*/
   padding-left: 0;
   
   justify-content: space-between;
@@ -269,7 +241,119 @@ color: #605757;
 
     .blurb {
       text-align: center;
+      font-feature-settings: 'kern' off;
     }
+
+    .blurb a:hover{
+    color: #D93826;
+  }
+
+
+/*Table- work experience*/
+
+.table-heading{
+  padding-left: 80px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+
+table.darkTable {
+  border-top: 0.7px solid #A4A4A4;
+  border-bottom: 0.7px solid #A4A4A4;
+  width: 1200px;
+  height: auto;
+  text-align: left;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+table.darkTable td, table.darkTable th {
+  border: 0px solid #4A4A4A;
+  padding: 10px;
+}
+table.darkTable tbody td {
+  color: #000000;
+}
+table.darkTable tr:nth-child(even) {
+  background: #EFEFF0;
+}
+
+
+.date-place {
+width: 400px;
+height: auto;
+font-family: 'Esteban', serif ;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+/*display: flex;*/
+align-items: center;
+font-feature-settings: 'kern' off;
+color: #605757;
+}
+
+.company {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  /*display: flex;*/
+  align-items: center;
+  font-feature-settings: 'kern' off;
+  color: #605757;  
+}
+
+.work-description{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 34px;
+  /* or 90% */
+  /*display: flex;*/
+  align-items: center;
+  font-feature-settings: 'kern' off;
+  color: #605757; 
+}
+
+.company a:hover {
+  color: #D93826;
+}
+
+
+
+/*Footer*/
+
+.name {
+  float: left;
+  font-family: 'Esteban', serif;
+  font-size: 22px;
+  margin-left: 80px;
+  align-items: center;
+}
+
+.email {
+  float: right;
+  font-family: 'Esteban', serif;
+  font-size: 16px;
+  margin-right: 80px;
+  text-align: right;
+  align-items: center;
+}
+
+.email a{
+  color: black;
+}
+
+.email a:hover{
+  outline: none;
+  text-decoration: none;
+  font-family:'Montserrat', sans-serif;
+  color: #D93826;
+}
 
 /*footer styling*/
 
