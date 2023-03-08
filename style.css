@@ -323,6 +323,123 @@ color: #605757;
   color: #D93826;
 }
 
+/* work tab*/
+
+.page-heading{
+  display:flex;
+  width: 848px;
+  height: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 4px;
+  font-feature-settings: 'kern' off;
+  margin: 0 auto;
+}
+
+#projects{
+  display: flex;
+  justify-content: center;
+}
+
+img{
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+    border: 0.7px solid #bacdd8;
+    background-color: #F3F9FA;
+  }
+
+  #container {
+    max-width: 300px;
+  
+    /* Center the container in middle on horizontal axis */
+    /*margin: 0 auto;*/
+    margin: 40px;
+  
+    /* Add empty space above the container (20% of the view height) */
+    margin-top: 10vh;
+    margin-bottom: 50px;
+  }
+
+  .card {
+    /* Change background color */
+    background-color: white;
+  
+    /* Add border */
+    border: 1px solid #bacdd8;
+  
+    /* Add space between the border and the content */
+    padding: 8px;
+    border-radius: 12px;
+    filter: drop-shadow(0px 24px 64px rgba(0, 0, 0, 0.1));
+    /*height: 483px;*/
+  }
+
+  /* Style div elements that have class equal to tag */
+.tag {
+  padding: 4px 8px;
+  border: 1px solid #e5eaed;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #788697;
+}
+
+/* Style div elements that have class equal to name */
+.project-name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  
+}
+
+/* Style p element */
+p {
+  font-size: 14px;
+  color: #7f8c9b;
+  line-height: 150%;
+}
+
+/* Style button element */
+button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: #0077ff;
+  background-color: #e0efff;
+
+  /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
+  margin: 0 auto;
+  display: block;
+
+  /* Button is a clickable element, therefore it should have a pointer cursor */
+  cursor: pointer;
+}
+
+.card-details {
+  /* Add space around the details */
+  padding: 16px 8px 8px 8px;
+}
+
+/* Add style when button is focused or hovered */
+button:focus,
+button:hover {
+  background-color: #0077ff;
+  color: #e0efff;
+}
+
+
+
 
 
 /*Footer*/
