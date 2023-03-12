@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Esteban', serif;
-    position: relative;
+    /* position: relative; */
     min-height: 100vh;  
 }
 /*body {
@@ -46,6 +46,7 @@ header {
     top: 0px;
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    z-index: 99;
 }
 
 /*Logo styling*/
@@ -95,6 +96,8 @@ a {
     padding: 2px 1px 0;
     font-family:'Montserrat', sans-serif;
     color: #605757;
+    display: block;
+    position: relative;
   }
   
   /*main content*/
@@ -145,7 +148,6 @@ a {
     align-items: center;
     letter-spacing: 1px;
     font-feature-settings: 'kern' off;
-
     color: #040707;
   }
  
@@ -215,7 +217,7 @@ color: #605757;
   height: 15%;
   left: 0;
   opacity: 0;
-  position: relative;
+  /* position: relative; */
   right: 0;
   top: 85%;
   transition: .5s ease;
@@ -224,6 +226,9 @@ color: #605757;
 
 .color-bg{
   background-color: #04070780;
+  position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .drawing-overlay-text {
@@ -248,6 +253,16 @@ color: #605757;
     color: #D93826;
   }
 
+/* Third fold*/
+
+.my-image {
+  width: 100%;
+  height: 100%;
+  max-width: 472px;
+  max-height: 600px;
+  padding: 0px 0px 0px 40px;
+  float: right;
+}
 
 /*Table- work experience*/
 
@@ -379,7 +394,7 @@ img{
     padding: 8px;
     border-radius: 12px;
     filter: drop-shadow(0px 24px 64px rgba(0, 0, 0, 0.1));
-    /*height: 483px;*/
+    height: 100%
   }
 
   /* Style div elements that have class equal to tag */
