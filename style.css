@@ -253,6 +253,38 @@ color: #605757;
     color: #D93826;
   }
 
+  .drawing-image-landscape{
+    height: auto;
+    object-fit: cover;
+    width: 98vw;
+    padding: 10px;
+  }
+
+  video {
+    width: 980px;
+    height: auto;
+    padding: 10px;
+    margin-left: 220px; 
+    margin-right: 220px; 
+  }
+
+  .vid{
+    background-color: black;
+  }
+  
+  .drawing-image-landscape-small{
+    height: 450px;
+    object-fit: cover;
+    width: auto;
+    padding: 10px;
+  }
+
+ 
+
+
+
+
+
 /* Third fold*/
 
 .my-image {
