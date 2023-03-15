@@ -15,19 +15,6 @@ body {
     /* position: relative; */
     min-height: 100vh;  
 }
-/*body {
-    background-color:  #FFFFFF;
-    background-image: url('images/wavy-lines.png');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    /*background-position:absolute;*/
-    /*width: 1538px;
-    height: 1719px;
-    left: -206px;
-    top: 550px;		
-    }*/
-
 
 
 /*header styling*/
@@ -407,7 +394,7 @@ img{
     max-width: 300px;
   
     /* Center the container in middle on horizontal axis */
-    /*margin: 0 auto;*/
+    
     margin: 40px;
   
     /* Add empty space above the container (20% of the view height) */
@@ -439,7 +426,7 @@ img{
   color: #788697;
 }
 
-/* Style div elements that have class equal to name */
+/* Style div elements that have class equal to project-name */
 .project-name {
   font-size: 24px;
   font-weight: 600;
