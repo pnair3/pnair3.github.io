@@ -191,13 +191,13 @@ color: #605757;
   /*padding-bottom: 10px;*/
   padding-left: 0;
   
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .drawing-image {
   height: 450px;
   object-fit: cover;
   width: 450px;
-  padding: 10px;
+  /* padding: 10px; */
 }
 .drawing-overlay {
   bottom: 0;
@@ -263,7 +263,7 @@ color: #605757;
     height: 450px;
     object-fit: cover;
     width: auto;
-    padding: 10px;
+    /* padding: 10px; */
   }
 
  
