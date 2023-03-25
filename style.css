@@ -247,17 +247,7 @@ color: #605757;
     padding: 10px;
   }
 
-  video {
-    width: 980px;
-    height: auto;
-    padding: 10px;
-    margin-left: 220px; 
-    margin-right: 220px; 
-  }
 
-  .vid{
-    background-color: black;
-  }
   
   .drawing-image-landscape-small{
     height: 450px;
