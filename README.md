@@ -1,4 +1,4 @@
-# about project-files-demonstration
+# about project
  This repository contains the WIP Portfolio website created for the Web Fundamentals Assignments
  The code is hosted on GitHub Pages here: 
 https://github.com/pnair3/pnair3.github.io
