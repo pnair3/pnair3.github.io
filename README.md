@@ -20,7 +20,6 @@ The Portfolio provides a brief introduction about me and my work experience. Add
 
 About the project development:
 
-(A description of the context of your project and your approach to project development. This will be specific to your own process, but might include some or all of the following examples: reasons why you chose your topic/project, external links, inspiration for your project, additional detail about your interest in the topic beyond what your project captures, design notes/drawings/screen shots/moodboards/wordbanks/etc. documenting your project development process, and/or screencaptures of your project in process. The purpose of this section is to give the viewer a sense of your project development process.)
 
 Considering this was my first time coding with HTML and CSS, I took guidance from Professor Rachel Daniel and Tech Tutor TK Cram, who helped with the set-up and various issues I faced during my process. I started with the basic template that Rachel taught us in the initial few classes of learning HTML and then proceeded to create my top header navigation bar and footer elements for my Homepage (index.html), beyond which I began styling both these elements in my CSS. I faced multiple issues with figuring out how to make my Nav bar sticky, which was easily resolved once I consulted TK. 
 
