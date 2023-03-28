@@ -1,35 +1,47 @@
 # about project-files-demonstration
- This repository contains a set of starter template files for basic web projects designed for use in teaching.
+ This repository contains the WIP Portfolio website created for the Web Fundamentals Assignments
  The code is hosted on GitHub Pages here: 
- https://racheldaniell.github.io/project-files-demonstration/
+https://github.com/pnair3/pnair3.github.io
 
-# next steps for project development
-When implementing a project with file sets like these, I recommend including a README file like the one right here to display the project title and a little information about the project. Some example potential things to include in such a project are below. (And it is always good to include the URL to your live, deployed project site for easy access!)
 
-PROJECT TITLE
-(and subtitle, if one exists)
+
+My Portfolio.
 
 by
 
-(your name/byline)
+Priyanka Nair
 
 About the Project
 
-(Put a short summary / abstract / description of your project at the beginning)
+The Portfolio provides a brief introduction about me and my work experience. Additionally it provides an entry point to various UX case studies I've designed for various clients over the 3 years I've been in this field. However, currently they can't be accessed through the website due to NDA. Additionally you can go on to view some of my digital illustrations and animations I've created to showcase my hobby which are linked to their respective instagram post.
 
-Add the URL Link to your <a href="https://racheldaniell.github.io/project-files-demonstration/">live project site</a> for easy access right from the code files and ReadMe.
+<a href="https://pnair3.github.io/">live portfolio site</a> 
 
 
 About the project development:
 
 (A description of the context of your project and your approach to project development. This will be specific to your own process, but might include some or all of the following examples: reasons why you chose your topic/project, external links, inspiration for your project, additional detail about your interest in the topic beyond what your project captures, design notes/drawings/screen shots/moodboards/wordbanks/etc. documenting your project development process, and/or screencaptures of your project in process. The purpose of this section is to give the viewer a sense of your project development process.)
 
-Data / Sources:
+Considering this was my first time coding with HTML and CSS, I took guidance from Professor Rachel Daniel and Tech Tutor TK Cram, who helped with the set-up and various issues I faced during my process. I started with the basic template that Rachel taught us in the initial few classes of learning HTML and then proceeded to create my top header navigation bar and footer elements for my Homepage (index.html), beyond which I began styling both these elements in my CSS. I faced multiple issues with figuring out how to make my Nav bar sticky, which was easily resolved once I consulted TK. 
 
-(if your project is based on data, you should specify those sources -- these should also be listed on your project site itself)
+I then began duplicating my header, top nav and footer elements across all my pages (work.html, Illustrations.html), making minor changes to each of these pages such that I'm able to visually able to highlight which page the user is currently on. 
+
+Once the basic set-up was done, I then proceeded to create content for my Main section under each of these pages.
+
+For the landing page/Homepage, I am introducing myself briefly which i supported with the digital self-portrait that I created, followed by a few other illustrations indicating my secondary interests. these images were individually linked to their respective posts along with my Instagram ID, which was also linked to my Instagram handle. 
+
+I wanted to showcase my work experience in tabular format such that the first column stated the name of the company I have worked for over the years, and the second column stated my work experience across these companies. Rather than a simple paragraph for each row, I put my experience in an unordered list. Furthermore, when clicked on, each company name redirects users to their respective websites. 
+
+Once satisfied with my homepage, I began designing and coding for the illustrations.html page. I inserted all my illustrations and styled them similarly to ensure they were of the same size. I added a hover element to showcase each illustration's captions. Similar to that of the landing page, I linked each of the images to their respective Instagram post. 
+
+For the work.html page, I planned to show each case study in a card format. For this, I took help from freecodecamp, which taught me how to code for this component in HTML and CSS. Once the basic structure was ready, I altered the CSS to meet my specific styling needs and inserted my mockups. Since I have yet to figure out how to showcase these case studies without breaking NDA, I have decided not to link them anywhere. 
+
+Throughout the process, at the end of each day, I pushed my code to GitHub and ran it frequently through the HTML and CSS code validator. Any issues that popped up in these validators, I resolved them constantly. 
+
+
 
 References / external acknowledgements 
 
-(things like sources beyond the data used, bibliographies, organizations you drew expertise from in your analysis, etc. -- these should also be listed on your project site itself)
+Freecode camp
+MDN References
 
-(... And end your README with notes on anything someone from the public interested in your project might want to know about the context of your creation!)
