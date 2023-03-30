@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Esteban', serif;
-    /* position: relative; */
+    position: relative; 
     min-height: 100vh;  
 }
 
@@ -89,7 +89,8 @@ a {
   
   /*main content*/
   main { 
-    padding-top: 45px
+    padding-top: 45px;
+    margin-bottom: 50px;
   }
 
 #first-fold{  
@@ -502,6 +503,7 @@ footer {
     height: 100px;
     width: 100%;
     align-items: center;
+    position: absolute;
     
 }
 .footer box{
